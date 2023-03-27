@@ -1,0 +1,38 @@
+Q1.What outcomes and patterns do you observe in your simulation?
+When the population of hares increases over time, the population of lynxes also increases since there is more preys
+for the predator. However, the increased number of lynxes caused more hares to be captured. The population of hares
+then starts to decrease. As there is less food for lynxes, there will be a decline in the population of lynxes.
+And then, fewer predators make it easier for hares to survive, resulting in an increasing population of hares. Most
+of the time, this pattern is consistent for 500 years simulation.
+
+Q2.How does adding the spacial component affect the behavior of your simulation?
+Adding grass to the simulation makes the population of hare more stable, resulting in the overall relatively stable
+system as compared to the former assignment of simulation where hares don't consume anything, which caused its
+population totally depends on the population of lynxes, which is less stable. The population of hare is now
+affected by the amount of grass and the population of lynxes within that square. Moreover, this simulation taking many
+squares of simulation and allowing the animals to migrate also makes the whole world more stable since there is not
+only one simulation and the animals can look for food in other regions.
+
+Q3.What aspects seem to be the most realistic?
+I think the most realistic part is that in this simulation, we consider the factor of grass as a source of food for
+the hares. In the former one, hares don't need to eat anything, which does not simulate the real-world. Also, it is realistic that when the grassland is lack of vegetation, the hares will
+leave and migrate to the nearby grassland instead of directly died off. In addition, the constraint that simulation
+of hares and lynxes for squares only occurs in grassland is also realistic since the these two animals can't live in
+the river or mountain.
+
+Q4.What are the main shortcomings of your simulation?
+The first shortcoming is that we assume both animals couldn't pass through rivers and mountains. So, regions of rivers
+and mountains are like the border in the "world" that consists of many square of simulation. In fact, lynxes are good
+swimmers, so they can cross rivers. Also, another shortage of this simulation is that the circles drawn on each square
+depends on the square size multiplied by the ratio of preys and predators. So, if there is a huge difference between
+the population of the two animals, then the size of circle of lynxes will be extremely small as compared to the one of
+hares, which makes the white circle (circle of lynxes) not very apparent. It will look like a small white point next to
+a huge yellow circle (circle of hares). My simulation also has a limit of the total rows and cols since the whole frame
+is 1000 pixels, and the square size is 100 pixels, so there can't be more than 10 rows and 10 cols.
+
+Q5.Given more time (and/or knowledge and/or resources), how could you improve your simulation?
+I would like to make the lynxes able to cross the river, which means there are more squares lynxes can pass through and
+travel to. The improvement can also be made by including the factor of the weather. If the weather is good, the grass
+grow faster. If it is not, the grass grow slower. Also, the season can also be considered since there is
+a drop in water level of the river in winter months. Less water flowing or river water may allow both hares and lynxes
+cross the river. I will also try to improve the representation of population of hares and lynxes, making it more obvious.
